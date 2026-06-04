@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box; /* isso significa que o padding e a borda serão incluídos na largura e altura total do elemento */
+    /*box-sizing: content-box; /* isso significa que o padding e a borda serão adicionados à largura e altura total do elemento */
+}
+
+h1 {
+    color: red;
+    font-size: 60px;
+    font-weight: 800;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    text-shadow: 2px 5px 2px gray;
+}
+
+h2 {
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    font-style: bolder;
+}
+
+p {
+    color: blue;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    line-height: 30px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-align: justify;
+    /*text-transform: uppercase;
+    text-decoration: underline overline wavy*/
+}
+
+h3 {
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    font-style: bold;
+}
+
+.box {
+    background-color: lightgray;
+    padding: 5px;  /* espaço entre o conteúdo e a borda da caixa */
+    height: auto; /* altura da caixa */
+    width: auto;  /* largura da caixa */
+    margin: 30px 30px 30px 30px;   /* espaço entre a caixa e outros elementos */
+    border-radius: 10px; /* bordas arredondadas */
+    padding-left: 20px; /* espaço entre o conteúdo e a borda esquerda da caixa */
+    border: 2px solid black; /* borda da caixa */
+    /*display: block; /* isso significa que a caixa ocupará toda a largura disponível e começará em uma nova linha */*/
+    /*display: inline-block; /* isso significa que a caixa ocupará apenas a largura necessária para seu conteúdo e permitirá que outros elementos fiquem ao lado dela */*/
+    /*display: inline; /* isso significa que a caixa ocupará apenas a largura necessária para seu conteúdo e permitirá que outros elementos fiquem ao lado dela, mas não permitirá que a caixa tenha altura ou largura definidas */*/
+}
+
+ul {
+    color: Black; /* siginifica cor do texto */
+    font-size: 20px; /* siginifica tamanho da fonte */
+    font-weight: 300; /* siginifica light */
+    line-height: 30px; /* siginifica altura da linha */
+    font-width: 100px; /* siginifica largura da linha */
+    font-family: "Roboto", sans-serif; /* siginifica modelo de fonte */
+    font-style: normal; /* siginifica estilo de fonte */
+    list-style-type: square; /* siginifica tipo de marcador */
+}
+
+a {
+    color: blue;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    text-decoration: none;
+}
+
+h4 {
+    color: black;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    font-style: bold;
+}
+
+ol {
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    font-width: 100px;
+    font-family: "Roboto", sans-serif;
+    font-style: bold;
+    list-style-type: decimal;
+}
+
+.box-1 {
+    background-color: rgb(28, 184, 223);
+    height: 170px; /* altura da caixa */
+    width: 250px;  /* largura da caixa */
+}
+
+
+
+
+/*
+
+- BLOCK
+
+    Vem como padrão div, section, p, h1..., ul, li, article...
+
+    - Ocupa 100% da largura do elemento origem
+    - Sempre ocupa toda sua linha
+    - Altura é definida pelo conteúdo
+    - Permite definir height e width
+    - Podemos definir valores de margin e padding
+
+- INLINE
+    Vem como padrão span, a, strong, b, i, etc...
+
+    - Ocupa apenas a largura necessária para seu conteúdo
+    - Permite que outros elementos fiquem ao lado dela
+    - Altura é definida pelo conteúdo
+    - Não permite definir height e width
+    - Podemos definir valores de margin e padding, mas só funciona na horizontal (margin-left, margin-right, padding-left e padding-right)
+
+- INLINE-BLOCK
+    Vem como padrão button, input, select, etc...
+    - Elementos em linha, porém com característica do display block
+    - Altura e largura podem ser definidas
+    - Permite que outros elementos fiquem ao lado dela
+
+*/

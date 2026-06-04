@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    height: 700px;
+    width: 700px;
+    background-color: blue;
+}
+/* 
+@media (max-width: 600px){
+    div{
+        background-color: red;
+    }
+} */
+
+/* @media (max-width: 700px){
+    div{
+        background-color: red;
+        height: 300px;
+        width: 300px;
+    }
+} */
+
+/* @media screen and (max-width: 700px){
+    div{
+        background-color: red;
+        height: 300px;
+        width: 300px;
+    }
+} */
+
+@media screen and (max-width: 700px) and (orientation: portrait){
+    div{
+        background-color: red;
+        height: 300px;
+        width: 300px;
+    }
+}

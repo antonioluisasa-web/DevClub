@@ -1,0 +1,54 @@
+<!-- FORMS NO HTML 
+ 
+    - Capturar dados de entrada
+    - Input -> Entrada de dados
+    
+    Action -> define para qual url será enviado os dados, vazio envia para a mesma url da página
+    Method -> define o método de envio dos dados, os mais comuns são GET e POST
+
+    - GET -> os dados são enviados na url, visível para o usuário, recomendado para dados não sensíveis
+    - POST -> os dados são enviados no corpo da requisição, não visível para o
+    
+-->
+
+<form action="" method="get" enctype="multipart/form-data">
+    <label>
+        Rua:
+        <input type="text" name="rua" placeholder="Digite sua rua" autocomplete="street-address"/>
+    </label>
+
+    <label>
+        Numero:
+        <input type="number" name="numero" placeholder="Digite o numero" autocomplete="street-number"/>
+    </label>
+
+    <label>
+        E-mail:
+        <input type="email" name="e-mail" placeholder="Digite seu e-mail" autocomplete="email"/>
+    </label>
+
+    <label>
+        Arquivo:
+        <input type="file" name="arquivo" placeholder="Selecione um arquivo" autocomplete="file"/>
+    </label>
+
+    <button type="submit">Enviar</button>
+    <button type="reset">Limpar</button>
+</form>
+
+<br>
+<br>
+
+<form action="" method="post">
+    <label>
+        Rua:
+        <input type="text" name="rua" placeholder="Digite sua rua" autocomplete="street-address"/>
+    </label>
+
+    <label>
+        Numero:
+        <input type="text" name="numero" placeholder="Digite o numero" autocomplete="street-number"/>
+    </label>
+
+    <button type="submit">Enviar</button>
+</form>

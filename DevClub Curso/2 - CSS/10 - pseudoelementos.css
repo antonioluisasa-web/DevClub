@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input {
+    border: 1px solid red;
+    color: blue;
+}
+
+input::placeholder {
+    color: red;
+}
+
+p {
+    color: green;
+}
+
+p::first-letter {
+    font-size: 2em;
+    color: red;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a::after {
+    content: " (link)";
+    color: red;
+}
+
+a::before {
+    content: ">> ";
+    color: red;
+}

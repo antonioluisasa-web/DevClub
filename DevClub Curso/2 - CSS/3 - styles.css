@@ -1,0 +1,23 @@
+/* CORES NO CSS */
+
+h1 {
+    color: black;
+    background-color: rgb(255, 0, 0);
+}
+
+h2 {
+    color: #00ff00;
+}
+
+h3 {
+    color: rgb(0, 0, 255);
+}
+
+p {
+    color: rgba(255, 0, 255, 0.5);
+}   
+
+button {
+    background-color: grey ;
+    color: black;
+}

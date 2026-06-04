@@ -1,0 +1,18 @@
+<!-- BUTTONS NO HTML 
+ type -> define o tipo do botão, os mais comuns são submit, reset e button
+    - submit -> envia os dados do formulário para a url definida no action
+    - reset -> limpa os campos do formulário
+    - button -> botão genérico, sem comportamento padrão, pode ser usado para ações personalizadas com JavaScript   
+
+-->
+
+<form action="" method="get">
+    <label>
+        Nome:
+        <input type="text" name="nome" placeholder="Digite seu nome" autocomplete="name"/>
+    </label>
+
+    <button type="submit" disabled>Enviar</button>
+    <button type="reset">Limpar</button>
+    <button type="button" onclick="alert('Botão de ação personalizada')">Ação Personalizada</button>    
+</form>

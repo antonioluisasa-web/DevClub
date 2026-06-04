@@ -1,0 +1,67 @@
+/* VAMOS FALAR DE POSITION
+
+O position é uma propriedade que define o tipo de posicionamento de um elemento na página. Existem 5 tipos de posicionamento:
+- static: é o valor padrão, o elemento é posicionado de acordo com o fluxo normal
+- relative: o elemento é posicionado em relação à sua posição original, ou seja, ele pode ser movido para cima, para baixo, para a esquerda ou para a direita, mas ele ainda ocupa o espaço original
+- absolute: o elemento é posicionado em relação ao seu elemento pai mais próximo que tenha position
+    relative, absolute ou fixed. Se não houver nenhum elemento pai com position, ele será posicionado em relação ao documento
+- fixed: o elemento é posicionado em relação à janela do navegador, ou seja, ele fica fixo na tela mesmo quando a página é rolada
+- sticky: o elemento é posicionado de acordo com o fluxo normal, mas ele se torna fixo quando atinge um determinado ponto de rolagem
+
+propriedades:
+- top: define a distância do elemento em relação ao topo do seu elemento pai
+- right: define a distância do elemento em relação à direita do seu elemento pai
+- bottom: define a distância do elemento em relação à parte inferior do seu elemento pai
+- left: define a distância do elemento em relação à esquerda do seu elemento pai
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 200vh;
+    width: 200vw;
+}
+
+.div-pai{
+    height: 350px;
+    width: 350px;
+    background-color: #ff1396;
+}
+
+.div-filha{
+    height: 150px;
+    width: 150px;
+    background-color: #fff000;
+}
+
+.div-mae{
+    height: 100px;
+    width: 100px;
+    background-color: #0000ff;
+}
+
+/*.div-pai {
+    height: 350px;
+    width: 350px;
+    background-color: #ff1396;
+    position: fixed;
+    opacity: 0.5;
+    top: 50px;
+    left: 36px;
+    right: 30px;
+    bottom: 20px;
+}
+*/
+
+/*.div-pai {
+    height: 350px;
+    width: 350px;
+    background-color: #ff1396;
+    margin: 200px;
+    position: sticky;
+    top: 20px;
+    left: 20px;
+}
+*/

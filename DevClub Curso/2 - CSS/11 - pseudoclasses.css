@@ -1,0 +1,66 @@
+/* Pseudo classes são palavras-chave adicionadas a seletores que especificam um estado especial do elemento selecionado. 
+Elas permitem que você aplique estilos a elementos com base em seu estado, posição ou relação com outros elementos. 
+Alguns exemplos comuns de pseudo-classes incluem:
+Pseudoclasses: 
+:hover - Aplica estilos quando o mouse está sobre um elemento.,     
+:focus - Aplica estilos quando o elemento está com foco,
+:active - Aplica estilos quando o elemento está ativo,
+:nth-child() - Aplica estilos a elementos filhos específicos,    
+:first-child - Aplica estilos ao primeiro filho de um elemento,
+:last-child - Aplica estilos ao último filho de um elemento,
+:not() - Aplica estilos a elementos que não correspondem a um seletor específico.
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*a:active{
+    color: red;
+}
+*/
+
+/*a:visited{
+    color: green;
+}
+*/
+
+/*a:hover{
+    color: blue;
+}*/
+
+/*input:checked{
+    height: 100px;
+    width: 100px;
+}
+*/
+
+/*input:disabled{
+    height: 100px;
+    width: 100px;
+}*/
+
+/*input:focus{
+    border: 2px solid red;
+    outline: none;
+}
+*/
+
+/*input[readonly]{
+    border: 2px solid red;
+    outline: none;
+}
+*/
+
+.container{
+height: 100px;
+width: 100px;
+background-color: gray;
+}
+
+.container:empty{
+    background-color: blue;
+}

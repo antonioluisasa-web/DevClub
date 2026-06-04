@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+header {
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*padding: 29.2px 62.2px;*/
+    /*height: 90%;*/
+    margin-top: 47px; /*Novo*/
+    margin-left: 42px; /*Novo*/
+}
+
+.link-header {
+    /*display: inline-block;*/
+    margin-right: 32px; /* Ajustado de 40px para 32px */
+    font-size: 14px; /*OK*/
+    color: #17233d; /*OK*/
+    font-weight: 400; /*OK*/
+    cursor: pointer; /*OK*/
+    line-height: 21px; /*Novo*/
+    text-align: center; /*Novo*/
+    letter-spacing: 0.875px; /*Novo*/
+}
+
+.button-logo {
+    /*box-sizing: border-box;*/
+    background-color: #6fbf44; /*OK*/
+    border: none; /*OK*/
+    border-radius: 6px; /*OK*/
+    height: 51px; /*Tamanho ajustado de 40px para 51px*/
+    width: 124px; /*Tamanho ajustado de 100px para 124px*/
+    color: #fff; /*OK*/
+    font-size: 16px; /*Tamanho ajustado de 12px para 16px*/
+    font-weight: 500; /*OK*/
+    line-height: 24px; /*OK*/
+    cursor: pointer; /*OK*/
+    letter-spacing: 1px; /*OK*/
+}
+
+.img-logo {
+    /*width: 700px;
+    height: 600px;
+    left: 121px;
+    top: 350px;*/
+    display: inline-block; /*Novo*/
+    margin-top: 163px; /*Tamanho ajustado de 150px para 163px*/
+    margin-left: 121px; /*Tamanho ajustado de 100px para 121px*/
+}
+
+section { 
+    display: inline-block; /*OK*/
+    /*position: absolute;*/
+    width: 500px; /*OK*/
+    /*height: 100px;
+    left: 900px;
+    top: 371px;
+    letter-spacing: normal;*/
+    margin-left: 85px; /*Novo*/
+}
+
+h1 {
+    font-size: 62px; /*OK*/
+    color: #161a49; /*OK*/
+    font-weight: 700; /*OK*/
+    line-height: 82px; /*OK*/
+    letter-spacing: 0.596154px; /*Alterado de normal para 0.596154px*/
+}
+
+p {
+    font-size: 18px; /*OK*/
+    color: #4b505a; /*Alterado de #17233d para #4b505a*/
+    font-weight: 400; /*OK*/
+    line-height: 33px; /*OK*/
+    margin-bottom: 55px; /*Alterado de 40px para 55px*/
+    margin-top: 47px; /*Alterado de 45px para 47px*/
+    letter-spacing: 0.5px; /*Alterado de normal para 0.5px*/
+    /*text-align: justify;*/
+}
+
+.button-section {
+    background-color: transparent; /*OK*/
+    border: none; /*OK*/
+    color: #6fbf44; /*OK*/
+    font-size: 18px; /*OK*/
+    font-weight: 500; /*OK*/
+    line-height: 27px; /*Alterado de 24px para 27px*/
+    cursor: pointer; /*OK*/
+    letter-spacing: 1px; /*OK*/
+    /*margin-top: 15px;*/
+}

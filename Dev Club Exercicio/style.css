@@ -1,0 +1,69 @@
+* { /* Aplica um reset básico para remover margens e preenchimentos padrão */
+    margin: 0; /* Remove as margens padrão */
+    padding: 0; /* Remove os preenchimentos padrão */
+    box-sizing: border-box; /* Define o modelo de caixa para incluir bordas e preenchimentos no tamanho total do elemento */
+    font-family: "Inter", sans-serif; /* Define a fonte para o corpo do documento */
+}
+
+body { /* Estiliza o corpo do documento */
+    background-color: #09090b; /* Cor de fundo escura */
+    color: #fafafa; /* Cor do texto */
+    padding: 60px 20px; /*  Adiciona espaçamento ao redor do conteúdo */
+    display: flex; /* Define o layout como flexbox */
+    flex-direction: column; /* Organiza os elementos em coluna */
+    align-items: center; /* Alinhamento ao centro */
+}
+
+.etiqueta { /* Estiliza os parágrafos */
+    font-size: 18px; /* Define o tamanho da fonte para os parágrafos */
+    color: #ffff; /* Define a cor do texto dos parágrafos */
+    text-align: center; /* Centraliza o texto dos parágrafos */
+    margin-top: 20px; /* Adiciona uma margem superior aos parágrafos */
+    max-width: 600px; /* Define uma largura máxima para os parágrafos */
+}
+
+.subtitulo { /* Estiliza o subtítulo */
+    font-size: 18px; /* Define o tamanho da fonte para o subtítulo */
+    color: #71717a; /* Define a cor do texto do subtítulo */
+    text-align: center; /* Centraliza o texto do subtítulo */
+    margin-top: 16px; /* Adiciona uma margem superior ao subtítulo */
+    max-width: 600px; /* Define uma largura máxima para o subtítulo */
+}
+
+.caixa-entrada {
+    width: 620px;
+}
+
+h1 { /* Estiliza o título principal */
+    font-size: 50px; /* Define o tamanho da fonte para o título */
+    font-weight: 800;
+    color:#fafafa; /* Define a cor do título */
+    text-align: center; /* Centraliza o texto do título */
+    margin-top: 20px; /* Adiciona uma margem superior ao título */
+}
+
+h1 span { /* Estiliza o elemento span dentro do título */
+    display: block; /* Exibe o elemento como um bloco */
+    font-size: 30px; /* Define o tamanho da fonte para o elemento span */
+    color: #a78bfa; /* Define a cor do texto do elemento span */
+    margin-top: 10px; /* Adiciona uma margem superior ao elemento span */
+}
+
+textarea { /* Estiliza a área de texto */
+    width: 80%; /* Define a largura da área de texto para ocupar todo o espaço disponível */
+    outline: none; /* Remove a borda de foco padrão da área de texto */
+    resize: none; /* define que a área de texto não pode ser redimensionada */
+    color: #fafafa; /* Define a cor do texto do elemento textarea*/
+    background: transparent; /* Cor de fundo escura */
+    /* max-width: 600px; /* Define uma largura máxima para a área de texto */
+    /* height: 150px; /* Define a altura da área de texto */
+    padding: 8px; /* Adiciona preenchimento interno à área de texto */
+    font-size: 15px; /* Define o tamanho da fonte para a área de texto */
+    /* border: 1px solid #ccc; /* Adiciona uma borda cinza clara à área de texto */
+    /* border-radius: 4px; /* Adiciona cantos arredondados à área de texto */
+    /* resize: vertical; /* Permite redimensionar a área de texto apenas na direção vertical */
+}
+
+button {
+    width: 20%; /* Define a largura do botão para ocupar todo o espaço disponível */
+}
